@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Matrix</title>
+</head>
+<body>
+<header class="header">
+    <h1 class="title">Matrix</h1>
+    <div class="welcome" id="h1">This site is created for save your notes. You can use this site like a time machine. I can save your message, and send you it in future</div>
+</header>
+<div class="menu">
+    <h1 class="menu__title">Menu</h1>
+    <button data-modal class="create__note">Create note</button>
+</div>
+<div class="modal">
+    <div class="modal__dialog">
+        <div class="modal__content">
+            <form action="#">
+                <div data-close class="modal__close">&times;</div>
+                <div class="modal__title">Type your note</div>
+                <input required placeholder="note" name="input" type="text" class="note">
+                <button class="btn__send">Send</button>
+                <button class="create__shedule">Create shedule</button>
+            </form>
+        </div>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
