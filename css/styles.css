@@ -7,8 +7,10 @@ body{
 }
 header{
     background-color: black;
-    background-image: url('https://j.gifs.com/yDezaZ.gif');
+    transition-duration: 5s;
+    transition-property: background-image;
     background-size: cover;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a0/Digital_rain_animation_small_letters_shine.gif'); */
 }
 .title{
     display: flex;
@@ -20,7 +22,6 @@ header{
     animation-duration: 1.5s;
     animation-name: flash;
 }
-
 @keyframes flash {
     0%, 50%, 100% {
        opacity: 1;
